@@ -1,0 +1,154 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #E5E5E5;
+  color: #344955;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: #344955;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.cta-btn {
+  background-color: #F9AA33;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #e69929;
+}
+
+.services-section {
+  padding: 80px 0;
+  text-align: center;
+  background-color: white;
+}
+
+.services-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.service-card {
+  background-color: #F9AA33;
+  color: white;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-card i {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.testimonials-section {
+  padding: 80px 0;
+  background-color: #344955;
+  color: white;
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.testimonial-card {
+  background-color: #4A6572;
+  padding: 40px;
+  border-radius: 15px;
+  font-style: italic;
+}
+
+.footer {
+  background-color: #4A6572;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0;
+}
+
+.social-links li {
+  margin: 0 10px;
+}
+
+.social-links a {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.social-links a:hover {
+  color: #F9AA33;
+}
