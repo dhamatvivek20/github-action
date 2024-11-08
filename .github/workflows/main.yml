@@ -29,9 +29,9 @@ jobs:
       # Build the Docker image
       - name: Build and tag Docker image
         run: |
-          docker build . -t ${{ secrets.DOCKER_USERNAME }}/demo-react-app:latest
+          docker build . -t ${{ secrets.DOCKER_USERNAME }}/demo-react-app:v1
 
       # Push the Docker image to Docker Hub
       - name: Push Docker image
         run: |
-          docker push ${{ secrets.DOCKER_USERNAME }}/demo-react-app:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/demo-react-app:v1
