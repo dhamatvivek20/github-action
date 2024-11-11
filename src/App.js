@@ -34,8 +34,8 @@ function App() {
             </div>
             <div className="service-card">
               <i className="fas fa-paint-brush"></i>
-              <h3>UI/UX Design</h3>
-              <p>We design intuitive user experiences that engage your audience.</p>
+              <h3>Cloud Solution</h3>
+              <p>We Provide efficent cloud solution.</p>
             </div>
             <div className="service-card">
               <i className="fas fa-mobile-alt"></i>
